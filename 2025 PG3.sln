@@ -5,6 +5,11 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2025 PG3", "2025 PG3.vcxproj", "{7FAF3DC2-6BD0-46E3-B78C-B6BFE77785E0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{C185AA60-B275-4CDF-A524-D70F4DFBDCD2}"
+	ProjectSection(SolutionItems) = preProject
+		.editconfig = .editconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
