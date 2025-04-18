@@ -2,7 +2,7 @@
 
 int main() {
 
-	printf("‚±‚ñ‚É‚¿‚í");
+	printf("ã“ã‚“ã«ã¡ã‚");
 
 	return 0;
 }
