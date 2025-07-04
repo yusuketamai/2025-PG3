@@ -49,7 +49,7 @@ int main(void) {
 		"k022g0074@g.neec.ac.jp","k022g0012@g.neec.ac.jp","k022g0001@g.neec.ac.jp"
 	};
 
-	/*ソート関数*/(/*リストの初め*/(), /*リストの終わり*/());
+	sort(IDNum.begin(), IDNum.end());
 
 	cout << "学籍番号" << endl;
 
