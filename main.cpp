@@ -19,7 +19,7 @@ int main(void) {
 	/*list<const char*>::iterator it_f;*/
 	for (list<const char*>::iterator it_f = eki_list.begin(); it_f != eki_list.end(); it_f++) {
 
-		if (*it_f == (it_f, "Nippori")) {
+		if (*it_f == (it_f, "Tabata")) {
 			it_f = eki_list.insert(it_f, "Nishi-Nippori");
 			std::cout << *it_f << endl;
 			++it_f;
@@ -30,7 +30,7 @@ int main(void) {
 	printf("\n2022年\n");
 	for (list<const char*>::iterator it_f = eki_list.begin(); it_f != eki_list.end(); it_f++) {
 
-		if (*it_f == (it_f, "Shinagawa")) {
+		if (*it_f == (it_f, "Tamachi")) {
 			it_f = eki_list.insert(it_f, "Takanawa Gateway");
 			std::cout << *it_f << endl;
 			++it_f;
