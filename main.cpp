@@ -10,18 +10,16 @@ int main(void) {
 		"Tokyo", "Kanda", "Akihabara", "Okachimachi", "Ueno", "Uguisudani", "Nippori", "Tabata", "Komagome", "Sugamo", "Otsuka", "Ikebukuro", "Mejiro", "Takadanobaba", "Sin-Okubo", "Shinjuku", "Yoyogi", "Harajuku", "Shibuya", "Ebisu", "Meguro", "Gotanda", "Osaki", "Shinagawa", "Tamachi", "Hamamatsucho", "Shimbashi", "Yurakucho"
 	};
 	
-
-
 	printf("1970年\n");
 	for (list<const char*>::iterator it_f = eki_list.begin(); it_f != eki_list.end(); it_f++) {
 		std::cout << *it_f << endl;
 	}
 
 	printf("\n2019年\n");
-	list<const char*>::iterator itr;
+	/*list<const char*>::iterator it_f;*/
 	for (list<const char*>::iterator it_f = eki_list.begin(); it_f != eki_list.end(); it_f++) {
 
-		if (it_f == eki_list.insert(it_f, "Nippori")) {
+		if (*it_f == (it_f, "Nippori")) {
 			it_f = eki_list.insert(it_f, "Nishi-Nippori");
 			std::cout << *it_f << endl;
 			++it_f;
@@ -32,7 +30,7 @@ int main(void) {
 	printf("\n2022年\n");
 	for (list<const char*>::iterator it_f = eki_list.begin(); it_f != eki_list.end(); it_f++) {
 
-		if (it_f == eki_list.insert(it_f, "Shinagawa")) {
+		if (*it_f == (it_f, "Shinagawa")) {
 			it_f = eki_list.insert(it_f, "Takanawa Gateway");
 			std::cout << *it_f << endl;
 			++it_f;
